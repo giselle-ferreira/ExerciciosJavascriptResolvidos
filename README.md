@@ -24,6 +24,10 @@
 
 8. [xxx](#questão-8)
 
+9. [xxx](#questão-9)
+
+10. [xxx](#questão-10)
+
 <br />
 <br />
 <br />
@@ -111,3 +115,5 @@ function media(){
 ### Questão 6
 ### Questão 7
 ### Questão 8
+### Questão 10
+### Questão 11
