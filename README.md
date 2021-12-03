@@ -12,6 +12,10 @@
  
 4. [Crie uma string com alguns espaços vazios, depois remova os espaços e imprima no console a nova string](#questão-1).
 
+
+<br />
+<br />
+<br />
 <br />
 <br />
 
