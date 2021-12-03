@@ -19,7 +19,7 @@
    + A mensagem "Reprovado", se a média for menor do que sete;
    + A mensagem "Aprovado com Distinção", se a média for igual a dez.
 
-6. [Escreva um programa que leia o nome e um número identificador de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário.](#questão-6)
+6. [Escreva um programa que leia no prompt o nome e um número identificador de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário.](#questão-6)
 
 7. [xxx](#questão-7)
 
@@ -132,7 +132,24 @@ function media(){
 ### Questão 6
 
 ```javascript
+var id = parseInt(prompt('Informar ID do funcionário: '))
 
+var nome = prompt('Informar nome do funcionário: ')
+
+var horasTrabalhadas = prompt('Informar quantas horas trabalhadas: ')
+
+var valorHora = prompt('Informar o valor da hora: ')
+
+var salario = horasTrabalhadas * valorHora
+
+console.log(
+  'O funcionário ' +
+    nome +
+    ' de ID: ' +
+    id +
+    ' receberá salario de R$ ' +
+    salario
+)
 ```
 
 <br>
