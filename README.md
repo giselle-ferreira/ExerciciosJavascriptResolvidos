@@ -36,6 +36,35 @@ for (i = 0; i < novoArray.length; i++) {
 }
 ```
 
+### Questão 3
+
+```javascript
+arr = [1, -4, 7, 12]
+var soma = 0
+
+for (i = 0; i < arr.length; i++) {
+  if (arr[i] >= 0) {
+    soma = soma + arr[i]
+  }
+}
+
+console.log(soma)
+```
+
+### Questão 4
+
+```javascript
+firstString = 'do re mi fa sol la si'
+newString = ''
+
+for (i = 0; i < firstString.length; i++) {
+  if (firstString[i] !== ' ') {
+    newString = newString + firstString[i]
+  }
+}
+
+console.log(newString)
+```
 
 
 
