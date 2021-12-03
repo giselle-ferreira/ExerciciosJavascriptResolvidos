@@ -19,7 +19,7 @@
    + A mensagem "Reprovado", se a média for menor do que sete;
    + A mensagem "Aprovado com Distinção", se a média for igual a dez.
 
-6. [Calcule a média de um aluno. Colete, por meio de prompt, as informações de nome, primeira nota e segunda nota. Calcule a média, e imprima uma mensagem de aprovação ou reprovação. O aluno é aprovado  se a média é maior do que 6.](#questão-6)
+6. [xxxxxx.](#questão-6)
 
 7. [xxx](#questão-7)
 
@@ -130,16 +130,7 @@ function media(){
 ### Questão 6
 
 ```javascript
-var nome = prompt('Qual é o nome do aluno?')
-var n1 = parseInt(prompt('Qual foi a primeira nota de ' + nome + ' ?'))
-var n2 = parseInt(prompt('Qual foi a segunda nota de ' + nome + ' ?'))
-var media = (n1 + n2) / 2
 
-if (media >= 6) {
-  console.log('Meus parabéns! Você foi aprovado!')
-} else {
-  console.log('Estude um pouco mais!')
-}
 ```
 
 <br>
