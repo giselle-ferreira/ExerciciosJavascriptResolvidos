@@ -19,7 +19,7 @@
    + A mensagem "Reprovado", se a média for menor do que sete;
    + A mensagem "Aprovado com Distinção", se a média for igual a dez.
 
-6. [xxxxxx.](#questão-6)
+6. [Escreva um programa que leia o nome e um número identificador de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário.](#questão-6)
 
 7. [xxx](#questão-7)
 
@@ -39,6 +39,8 @@
 2. [Defina um botão na tela que diz "Clique para ganhar um prêmio". Ele deve emitir um alerta que diz "Você acabou de ganhar 1 milhão de reais".](#questão-2)
 
 3. [Crie um prompt que pede ao usuário para digitar um número e um botão que, ao ser clicado, deve informar o quadrado do número informado em um alert com a mensagem descritiva.](#questão-3)
+
+4. [Crie um input na tela, para inserir números, e um botão que, ao ser clicado, deve informar se a pessoa é maior ou menor de idade em um alert.](#questão-4)
 
 <br />
 <br />
