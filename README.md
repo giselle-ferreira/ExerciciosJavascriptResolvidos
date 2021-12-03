@@ -2,6 +2,7 @@
 <br />
 
 > # Enunciados
+> ## For, if/else, While
 <br>
 
 1. [Usando o For, imprima no console a frase 'Estou aprendendo Javascript' 10 vezes](#questão-1). 
@@ -29,6 +30,15 @@
 10. [xxx](#questão-10)
 
 <br />
+
+> ## Manipulação do DOM
+> 
+1. [Mostre um prompt que pergunta o ano de nascimento do usuário. Deve ser emitido um alerta com a mensagem "Você tem (idade) anos".](#questão-1)
+
+2. [Defina um botão na tela que diz "Clique para ganhar um prêmio". Ele deve emitir um alerta que diz "Você acabou de ganhar 1 milhão de reais".](#questão-2)
+
+3. [Crie um prompt que pede ao usuário para digitar um número e um botão que, ao ser clicado, deve informar o quadrado do número informado em um alert com a mensagem descritiva.](#questão-3)
+
 <br />
 <br />
 <br />
@@ -115,5 +125,5 @@ function media(){
 ### Questão 6
 ### Questão 7
 ### Questão 8
+### Questão 9
 ### Questão 10
-### Questão 11
