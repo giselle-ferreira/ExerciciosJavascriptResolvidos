@@ -18,6 +18,11 @@
    + A mensagem "Reprovado", se a média for menor do que sete;
    + A mensagem "Aprovado com Distinção", se a média for igual a dez.
 
+6. [xxx](#questão-6)
+
+7. [xxx](#questão-7)
+
+8. [xxx](#questão-8)
 
 <br />
 <br />
@@ -103,3 +108,6 @@ function media(){
     }
 ```
 
+### Questão 6
+### Questão 7
+### Questão 8
