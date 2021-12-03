@@ -6,11 +6,17 @@
 
 1. [Usando o For, imprima no console a frase 'Estou aprendendo Javascript' 10 vezes](#questão-1). 
 
-2. [Crie um array de números, e imprima no console apenas os números ímpares](#questão-1).
+2. [Crie um array de números, e imprima no console apenas os números ímpares](#questão-2).
  
-3. [Crie um array de números (positivos e negativos). Você deve retornar a soma dos números positivos do mesmo](#questão-1).
+3. [Crie um array de números (positivos e negativos). Você deve retornar a soma dos números positivos do mesmo](#questão-3).
  
-4. [Crie uma string com alguns espaços vazios, depois remova os espaços e imprima no console a nova string](#questão-1).
+4. [Crie uma string com alguns espaços vazios, depois remova os espaços e imprima no console a nova string](#questão-4).
+
+5. [Faça um script que pede duas notas de um aluno. Em seguida ele deve calcular a média do aluno e dar o seguinte resultado:](#questão-5)
+
+   + A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
+   + A mensagem "Reprovado", se a média for menor do que sete;
+   + A mensagem "Aprovado com Distinção", se a média for igual a dez.
 
 
 <br />
@@ -27,6 +33,7 @@ for (i = 0; i < 10; i++) {
   console.log('Estou aprendendo Javascript', i)
 }
 ```
+<br>
 
 ### Questão 2
 
@@ -39,6 +46,8 @@ for (i = 0; i < novoArray.length; i++) {
   }
 }
 ```
+
+<br>
 
 ### Questão 3
 
@@ -55,6 +64,8 @@ for (i = 0; i < arr.length; i++) {
 console.log(soma)
 ```
 
+<br>
+
 ### Questão 4
 
 ```javascript
@@ -70,6 +81,25 @@ for (i = 0; i < firstString.length; i++) {
 console.log(newString)
 ```
 
+<br>
 
+### Questão 5
 
+```javascript
+function media(){
+     let nota1 = parseFloat(document.getElementById("nota1").value);
+     let nota2 = parseFloat(document.getElementById("nota2").value);
+
+     let media = (nota1 + nota2)/2 ;
+
+     if(media >= 7)
+      if(media==10)
+       alert("Uau! Aprovado com distinção");
+      else
+       alert("Parabéns, aprovado! Media "+media);
+     else
+      alert("Reprovado!")
+
+    }
+```
 
