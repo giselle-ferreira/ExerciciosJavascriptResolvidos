@@ -4,7 +4,7 @@
 ### Índice
 
 + [Exercícios](#exercícios)
-+ [Exercícios com manipulação do DOM](#exercícios-com-manipulação-do-dom)
++ [Exercícios com manipulação do DOM](#exercícios-com-manipulação-do-dom) (A incluir)
 + [Resoluções](#resoluções)
 
 <br>
