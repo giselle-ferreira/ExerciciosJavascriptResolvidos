@@ -21,13 +21,13 @@
 
 6. [Escreva um programa que leia no prompt o nome e um número identificador de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário.](#questão-6)
 
-7. [xxx](#questão-7)
+7. [Imprimir no console os números impares menores que 100.](#questão-7)
 
-8. [xxx](#questão-8)
+8. [Imprimir a tabuada do número 8 no console.](#questão-8)
 
-9. [xxx](#questão-9)
+9. [Calcular a soma dos números impares maiores que 10 e menores que 30.](#questão-9)
 
-10. [xxx](#questão-10)
+10. [Calcular a soma dos números de um array.](#questão-10)
 
 <br />
 
@@ -42,8 +42,6 @@
 
 4. [Crie um input na tela, para inserir números, e um botão que, ao ser clicado, deve informar se a pessoa é maior ou menor de idade em um alert.](#questão-4)
 
-<br />
-<br />
 <br />
 <br />
 
@@ -155,6 +153,51 @@ console.log(
 <br>
 
 ### Questão 7
+
+```javascript
+for (var i = 1; i <= 100; i += 2) {
+ console.log(i);
+} 
+```
+
+<br>
+
 ### Questão 8
+
+```javascript
+for (var i = 1; i <= 10; i++) {
+ var num = "8 * " + i + " = " + 8 * i;
+ console.log(num);
+} 
+```
+
+<br>
+
 ### Questão 9
+
+```javascript
+var soma = 0;
+for(var i = 11; i <= 30; i += 2) {
+ soma += i;
+}
+console.log(soma); 
+```
+
+<br>
+
 ### Questão 10
+
+```javascript
+function somarArray(ar){
+ var soma = 0;
+ for (var i = 0; i < ar.length; i++) {
+ soma += ar[i];
+ }
+ return soma;
+}
+var ar = [2, 3, -1, 5, 7, 9, 10, 15, 95];
+var soma = somarArray(ar);
+console.log(soma);
+```
+
+<br>
