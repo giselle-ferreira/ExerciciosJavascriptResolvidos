@@ -38,9 +38,9 @@
 
 9. [Calcular a soma dos números impares maiores que 10 e menores que 30.](#questão-9)
 
-10. [Calcular a soma dos números de um array.](#questão-10)
+10. [Calcular a soma dos números do array ar = [2, 3, -1, 5, 7, 9, 10, 15, 95].](#questão-10)
 
-11. [Calcular a média de todos os números de um array ](#questão-11)
+11. [Calcular a média de todos os números do array ar = [1, 3, 9, 15, 90] ](#questão-11)
 
 12. [Dado o array numeros = [2, 4, 4], crie um programa que o percorra e faça o quadrado de cada elemento, e imprima no console a soma destes quadrados.](#questão-12)
 
@@ -212,6 +212,7 @@ function somarArray(ar){
  }
  return soma;
 }
+
 var ar = [2, 3, -1, 5, 7, 9, 10, 15, 95];
 var soma = somarArray(ar);
 console.log(soma);
@@ -231,6 +232,7 @@ function mediaArray(ar) {
  }
  return soma / n;
 }
+
 var ar = [1, 3, 9, 15, 90];
 var media = mediaArray(ar);
 console.log("mediaArray: ", media); 
@@ -263,7 +265,7 @@ console.log(somaQuadrados)
 ### Questão 13
 
 ```javascript
-var minhaBolsa = [
+var minhaMochila = [
   'carteira',
   'Álcool Gel',
   'chaves',
@@ -275,16 +277,16 @@ var minhaBolsa = [
 // Forma 1
 // Quando sei em que índice está o elemento.
 
-for (var i = 0; i < minhaBolsa.length - 2; i++) {
-  console.log(minhaBolsa[i])
+for (var i = 0; i < minhaMochila.length - 2; i++) {
+  console.log(minhaMochila[i])
 }
 
 // Forma 2
 // Quando NÃO sei em que índice está o elemento.
 
-for (var i = 0; i <= minhaBolsa.length; i++) {
-  console.log(minhaBolsa[i])
-  if (minhaBolsa[i] === 'caneta') {
+for (var i = 0; i <= minhaMochila.length; i++) {
+  console.log(minhaMochila[i])
+  if (minhaMochila[i] === 'caneta') {
     break
   }
 }
