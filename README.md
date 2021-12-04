@@ -1,5 +1,6 @@
 > # Exercícios Resolvidos - Javascript (Iniciante)
 
+
 ### Índice
 
 + [Exercícios](#exercícios)
@@ -8,8 +9,12 @@
 
 <br>
 
-> ## Exercícios
+### Atenção! Tente várias vezes antes de olhar as resoluções! ⚠️  
+
 <br>
+<br>
+
+> ## Exercícios
 
 1. [Usando o For, imprima no console a frase 'Estou aprendendo Javascript' 10 vezes](#questão-1). 
 
@@ -51,6 +56,9 @@
 4. [Crie um input na tela, para inserir números, e um botão que, ao ser clicado, deve informar se a pessoa é maior ou menor de idade em um alert.](#questão-4)
 
 <br />
+
+### Atenção! Tente várias vezes antes de olhar as resoluções! ⚠️  
+
 <br />
 <br />
 
