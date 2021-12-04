@@ -1,8 +1,14 @@
-> <h1>Exercícios Resolvidos - Javascript (Iniciante)</h1>
-<br />
+> # Exercícios Resolvidos - Javascript (Iniciante)
 
-> # Enunciados
-> ## For, if/else, While
+### Índice
+
++ [Exercícios](#exercícios)
++ [Exercícios com manipulação do DOM](#exercícios-com-manipulação-do-dom)
++ [Resoluções](#resoluções)
+
+<br>
+
+> ## Exercícios
 <br>
 
 1. [Usando o For, imprima no console a frase 'Estou aprendendo Javascript' 10 vezes](#questão-1). 
@@ -29,10 +35,12 @@
 
 10. [Calcular a soma dos números de um array.](#questão-10)
 
+11. [Calcular a média de todos os números de um array ](#questão-11)
+
+<br />
 <br />
 
-## 
-> ## Manipulação do DOM
+> ## Exercícios com manipulação do DOM
 > 
 1. [Mostre um prompt que pergunta o ano de nascimento do usuário. Deve ser emitido um alerta com a mensagem "Você tem (idade) anos".](#questão-1)
 
@@ -44,9 +52,9 @@
 
 <br />
 <br />
+<br />
 
 > # Resoluções
-> ## For, if/else, While
 
 ### Questão 1
 
@@ -198,6 +206,24 @@ function somarArray(ar){
 var ar = [2, 3, -1, 5, 7, 9, 10, 15, 95];
 var soma = somarArray(ar);
 console.log(soma);
+```
+
+<br>
+
+### Questão 11
+
+```javascript
+function mediaArray(ar) {
+ var n = ar.length;
+ var soma = 0;
+ for (var i = 0; i < n; i++) {
+ soma += ar[i];
+ }
+ return soma / n;
+}
+var ar = [1, 3, 9, 15, 90];
+var media = mediaArray(ar);
+console.log("mediaArray: ", media); 
 ```
 
 <br>
