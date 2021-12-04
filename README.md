@@ -44,10 +44,12 @@
 
 12. [Dado o array numeros = [2, 4, 4], crie um programa que o percorra e faça o quadrado de cada elemento, e imprima no console a soma destes quadrados.](#questão-12)
 
+13. [Dado o array minhaMochila = [ 'carteira' , 'Álcool Gel' , 'chaves' , 'notebook' , 'óculos' , 'lenço de papel' ], imagine que hoje você não precise usar os dois últimos itens da lista. Imprima no console apenas os itens que você colocará na bolsa.](#questão-13)
+
 <br />
 <br />
 
-### Atenção! Tente várias vezes antes de olhar as resoluções! ⚠️  
+### ATENÇÃO! Tente várias vezes antes de olhar as resoluções! ⚠️  
 
 <br />
 <br />
@@ -60,6 +62,7 @@
 for (i = 0; i < 10; i++) {
   console.log('Estou aprendendo Javascript', i)
 }
+
 ```
 <br>
 
@@ -73,6 +76,7 @@ for (i = 0; i < novoArray.length; i++) {
     console.log(novoArray[i])
   }
 }
+
 ```
 
 <br>
@@ -90,6 +94,7 @@ for (i = 0; i < arr.length; i++) {
 }
 
 console.log(soma)
+
 ```
 
 <br>
@@ -107,6 +112,7 @@ for (i = 0; i < firstString.length; i++) {
 }
 
 console.log(newString)
+
 ```
 
 <br>
@@ -129,6 +135,7 @@ function media(){
       alert("Reprovado!")
 
     }
+    
 ```
 
 <br>
@@ -154,6 +161,7 @@ console.log(
     ' receberá salario de R$ ' +
     salario
 )
+
 ```
 
 <br>
@@ -164,6 +172,7 @@ console.log(
 for (var i = 1; i <= 100; i += 2) {
  console.log(i);
 } 
+
 ```
 
 <br>
@@ -175,6 +184,7 @@ for (var i = 1; i <= 10; i++) {
  var num = "8 * " + i + " = " + 8 * i;
  console.log(num);
 } 
+
 ```
 
 <br>
@@ -186,7 +196,8 @@ var soma = 0;
 for(var i = 11; i <= 30; i += 2) {
  soma += i;
 }
-console.log(soma); 
+console.log(soma);
+
 ```
 
 <br>
@@ -204,6 +215,7 @@ function somarArray(ar){
 var ar = [2, 3, -1, 5, 7, 9, 10, 15, 95];
 var soma = somarArray(ar);
 console.log(soma);
+
 ```
 
 <br>
@@ -222,6 +234,7 @@ function mediaArray(ar) {
 var ar = [1, 3, 9, 15, 90];
 var media = mediaArray(ar);
 console.log("mediaArray: ", media); 
+
 ```
 
 <br>
@@ -236,6 +249,46 @@ for (var i = 0; i < numeros.length; i++) {
   somaQuadrados = somaQuadrados + numeros[i] ** 2
 }
 console.log(somaQuadrados)
+
+// Teste de Mesa
+// somaQuadrados = 0 + 2**2 = 4  -- loop 1
+// somaQuadrados = 4 + 4**2 = 12  -- loop 2
+// somaQuadrados = 12 + 4*2 = 20  -- loop 3
+// Soma 4 + 12 + 20
+
+```
+
+<br>
+
+### Questão 13
+
+```javascript
+var minhaBolsa = [
+  'carteira',
+  'Álcool Gel',
+  'chaves',
+  'notebook',
+  'óculos',
+  'lenço de papel'
+]
+
+// Forma 1
+// Quando sei em que índice está o elemento.
+
+for (var i = 0; i < minhaBolsa.length - 2; i++) {
+  console.log(minhaBolsa[i])
+}
+
+// Forma 2
+// Quando NÃO sei em que índice está o elemento.
+
+for (var i = 0; i <= minhaBolsa.length; i++) {
+  console.log(minhaBolsa[i])
+  if (minhaBolsa[i] === 'caneta') {
+    break
+  }
+}
+
 ```
 
 <br>
