@@ -42,19 +42,9 @@
 
 11. [Calcular a média de todos os números de um array ](#questão-11)
 
+12. [Dado o array numeros = [2, 4, 4], crie um programa que o percorra e faça o quadrado de cada elemento, e imprima no console a soma destes quadrados.](#questão-12)
+
 <br />
-<br />
-
-> ## Exercícios com manipulação do DOM
-> 
-1. [Mostre um prompt que pergunta o ano de nascimento do usuário. Deve ser emitido um alerta com a mensagem "Você tem (idade) anos".](#questão-1)
-
-2. [Defina um botão na tela que diz "Clique para ganhar um prêmio". Ele deve emitir um alerta que diz "Você acabou de ganhar 1 milhão de reais".](#questão-2)
-
-3. [Crie um prompt que pede ao usuário para digitar um número e um botão que, ao ser clicado, deve informar o quadrado do número informado em um alert com a mensagem descritiva.](#questão-3)
-
-4. [Crie um input na tela, para inserir números, e um botão que, ao ser clicado, deve informar se a pessoa é maior ou menor de idade em um alert.](#questão-4)
-
 <br />
 
 ### Atenção! Tente várias vezes antes de olhar as resoluções! ⚠️  
@@ -232,6 +222,20 @@ function mediaArray(ar) {
 var ar = [1, 3, 9, 15, 90];
 var media = mediaArray(ar);
 console.log("mediaArray: ", media); 
+```
+
+<br>
+
+### Questão 12
+
+```javascript
+numeros = [2, 4, 4]
+var somaQuadrados = 0
+
+for (var i = 0; i < numeros.length; i++) {
+  somaQuadrados = somaQuadrados + numeros[i] ** 2
+}
+console.log(somaQuadrados)
 ```
 
 <br>
