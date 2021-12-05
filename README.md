@@ -1,5 +1,8 @@
-> # Exercícios Resolvidos - Javascript (Iniciante)
-
+<p align="center" >
+<img src="https://img.shields.io/badge/-javascript-F0DB4F?logo=javascript&logoColor=323330&style=for-the-badge" width="150" />
+<h1 align="center">Exercícios Resolvidos de Javascript</h1>
+<h2 align="center">Iniciante</h2>
+</p>
 
 ### Índice
 
