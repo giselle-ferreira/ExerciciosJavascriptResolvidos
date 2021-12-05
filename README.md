@@ -10,7 +10,11 @@
 + [Exercícios com manipulação do DOM](#exercícios-com-manipulação-do-dom) (A incluir)
 + [Resoluções](#resoluções)
 
-<br>
+
+### Material de Apoio
+
++ [While, Do While e For](https://www.todoespacoonline.com/w/2014/04/lacos-em-javascript/)
++ [Arrays](https://www.devmedia.com.br/javascript-arrays/4079)
 
 ### Atenção! Tente várias vezes antes de olhar as resoluções! ⚠️  
 
