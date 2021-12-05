@@ -15,7 +15,7 @@
 
 + [While, Do While e For](https://www.todoespacoonline.com/w/2014/04/lacos-em-javascript/)
 + [Arrays](https://www.devmedia.com.br/javascript-arrays/4079)
-+ [Playlist - Javascript - Hora de Codar](https://www.youtube.com/playlist?list=PLnDvRpP8BneysKU8KivhnrVaKpILD3gZ6)
++ [Playlist de Javascript - Canal Hora de Codar](https://www.youtube.com/playlist?list=PLnDvRpP8BneysKU8KivhnrVaKpILD3gZ6)
 
 <br>
 
