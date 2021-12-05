@@ -1,8 +1,9 @@
 <p align="center" >
 <img src="https://img.shields.io/badge/-javascript-F0DB4F?logo=javascript&logoColor=323330&style=for-the-badge" width="150" />
-<h1 align="center">Exercícios Resolvidos de Javascript</h1>
-<h2 align="center">Iniciante</h2>
 </p>
+<h1 align="center">Exercícios Javascript - Resolvidos</h1>
+<h2 align="center">Iniciante</h2>
+
 
 ### Índice
 
@@ -14,6 +15,7 @@
 
 + [While, Do While e For](https://www.todoespacoonline.com/w/2014/04/lacos-em-javascript/)
 + [Arrays](https://www.devmedia.com.br/javascript-arrays/4079)
++ [Playlist - Javascript - Hora de Codar](https://www.youtube.com/playlist?list=PLnDvRpP8BneysKU8KivhnrVaKpILD3gZ6)
 
 <br>
 
