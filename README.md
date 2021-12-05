@@ -63,6 +63,11 @@
  
 15. [Dado o array palheiro = ['akslaks', true, 34, 'linha', 'blablabla', 'agulha', false, 2378, undefined ]. Escreva uma função encontrarAgulha para encontrar em que posição ela está e retorne com a frase 'Encontrei a agulha na posição ...' e informe a posição.](#questão-15)
 
+16. [Troque todos os elementos pares e diferentes de zero de um array pelo número 0. Se o array for vazio, retorne -1.](#questão-16)
+
+      + Exemplo: Input -> [1, 3, 4, 6, 80, 33, 23, 90]
+                 Output -> [1, 3, 0, 0, 0, 33, 23, 0]]
+
 <br />
 <br />
 
@@ -368,6 +373,34 @@ function encontrarAgulha() {
 }
 
 encontrarAgulha()
+
+```
+
+<br>
+
+### Questão 16
+
+```javascript
+function substituirPares(array) {
+  if (!array) return -1 
+  if (!array.length) return -1
+
+  for (let i = 0; i < array.length; i++) {
+    if (array === 0) {
+      console.log('Já é Zero!')
+    } else if (array[i] % 2 === 0) {
+      console.log(`Substituindo ${array[i]} por 0...`)
+      array[i] = 0
+    }
+  }
+  return array
+}
+
+var arr = [1, 3, 4, 6, 80, 33, 23, 90]
+// console.log(substituirPares(arr))
+
+// console.log(substituirPares([])) //Aqui significa array vazio
+// console.log(substituirPares(null)) //se for null, undefined ou false/true, ele não é um array, assim não tem a propriedade length.
 
 ```
 
