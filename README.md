@@ -15,7 +15,8 @@
 
 + [While, Do While e For](https://www.todoespacoonline.com/w/2014/04/lacos-em-javascript/)
 + [Arrays](https://www.devmedia.com.br/javascript-arrays/4079)
-+ [Playlist de Javascript - Canal Hora de Codar](https://www.youtube.com/playlist?list=PLnDvRpP8BneysKU8KivhnrVaKpILD3gZ6)
++ [Playlist de Javascript - Canal Hora de Codar](https://www.youtube.com/playlist?list=PLnDvRpP8BneysKU8KivhnrVaKpILD3gZ6) <img width="24" src="https://bit.ly/3y0lvGK">
++ [Curso Javascript com 14 mini projetos - Canal Dev Aprender](https://www.youtube.com/watch?v=i6Oi-YtXnAU&t=13067s) <img width="24" src="https://bit.ly/3y0lvGK">
 
 <br>
 
