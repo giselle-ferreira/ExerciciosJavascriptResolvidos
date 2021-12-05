@@ -57,6 +57,10 @@
 
 13. [Dado o array minhaMochila = [ 'carteira' , 'Álcool Gel' , 'chaves' , 'notebook' , 'óculos' , 'lenço de papel' ], imagine que hoje você não precise usar os dois últimos itens da lista. Imprima no console apenas os itens que você colocará na bolsa.](#questão-13)
 
+14. [Faça um programa que informe ao usuário se já é hora de renovar a carteira. Lembrando que dos 18 até os menores de 65 anos, o período de renovação é de 5 anos. A partir de 65 anos passa a ser 3 anos.](#questão-14)
+ 
+15. [Dado o array palheiro = ['akslaks', true, 34, 'linha', 'blablabla', 'agulha', false, 2378, undefined ]. Escreva uma função encontrarAgulha para encontrar em que posição ela está e retorne com a frase 'Encontrei a agulha na posição ...' e informe a posição.](#questão-15)
+
 <br />
 <br />
 
@@ -301,6 +305,67 @@ for (var i = 0; i <= minhaMochila.length; i++) {
     break
   }
 }
+
+```
+
+<br>
+
+### Questão 14
+
+```javascript
+var idade = parseInt(prompt('Qual sua idade?'))
+var ultimaRenovacao = parseInt(
+  prompt(
+    'Qual tempo tem desde a última vez que você renovou a carteira?\n1- 1 ano\n2- 2 anos\n3- 3 anos\n4- 4 anos\n5- 5 anos\n6- 6 anos\n7- 7 anos'
+  )
+)
+
+function renovarCarteira() {
+  if (idade >= 18 && idade < 65 && ultimaRenovacao >= 5) {
+    alert('Está na hora de renovar sua carteira.')
+  } else if (idade >= 18 && idade < 65 && ultimaRenovacao < 5) {
+    alert('Ainda não está no tempo de renovar sua carteira.')
+  } else if (idade >= 65) {
+    if (ultimaRenovacao >= 3) {
+      alert('Está na hora de renovar sua carteira.')
+    } else {
+      alert('Ainda não está no tempo de renovar sua carteira.')
+    }
+  } else {
+    console.log('programa inválido.')
+  }
+}
+
+renovarCarteira()
+
+```
+
+<br>
+
+### Questão 15
+
+```javascript
+palheiro = [
+  'akslaks',
+  true,
+  34,
+  'linha',
+  'blablabla',
+  'agulha',
+  false,
+  2378,
+  undefined
+]
+
+function encontrarAgulha() {
+  for (var i = 0; i < palheiro.length; i++) {
+    if (palheiro[i] === 'agulha') {
+      console.log('Encontrei a agulha na posição ' + i)
+    }
+  }
+}
+
+encontrarAgulha()
 
 ```
 
