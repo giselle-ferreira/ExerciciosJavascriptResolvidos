@@ -7,7 +7,8 @@
 
 ### Índice
 
-+ [Exercícios](#exercícios)
++ [Exercícios - Condicionais/ Repetição](#exercícios)
++ [Exercícios - Métodos](#métodos)
 + [Resoluções](#resoluções)
 
 
@@ -68,6 +69,13 @@
       + Exemplo: Input -> [1, 3, 4, 6, 80, 33, 23, 90]
                  Output -> [1, 3, 0, 0, 0, 33, 23, 0]]
 
+<br>
+
+> ## Métodos
+
+1. [Usando o orEach, crie um array com os números de 1 a 6 e exiba na console do navegador apenas os números pares.](#questão-1).
+
+<br />
 <br />
 <br />
 
@@ -76,7 +84,8 @@
 <br />
 <br />
 
-> # Resoluções
+<h1 align="center">Resoluções</h1>
+<p align="center">Condicionais/ Repetição</p>
 
 ### Questão 1
 
