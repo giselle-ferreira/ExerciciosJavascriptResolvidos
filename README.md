@@ -9,10 +9,10 @@
 
 + [Exercícios](#exercícios)
     + [Condicionais/ Repetição](#exercícios)
-    + [Métodos](#métodos)
+    + [Métodos](#exercícios-métodos-e-objetos)
 + [Resoluções](#resoluções)
-    + [Condicionais/ Repetição](#resoluções)
-    + [Métodos](#resoluções-métodos)
+    + [Condicionais - Repetição](#Condicionais-e-repetição)
+    + [Métodos](#resoluções-métodos-e-objetos)
 
 ### Material de Apoio
 
@@ -73,8 +73,9 @@
 
 <br>
 
-<h1 align="center">Resoluções Métodos</h1>
-
+<h1 align="center">Métodos</h1>
+<p align="center">Exercícios Métodos e Objetos</p>
+    
 1. [Usando o orEach, crie um array com os números de 1 a 6 e exiba na console do navegador apenas os números pares.](#questão-1).
 
 <br />
@@ -87,7 +88,7 @@
 <br />
 
 <h1 align="center">Resoluções</h1>
-<p align="center">Condicionais/ Repetição</p>
+<p align="center">Condicionais e repetição</p>
 
 ### Questão 1
 
