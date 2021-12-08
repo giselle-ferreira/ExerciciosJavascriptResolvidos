@@ -84,6 +84,8 @@
 
 4. [Dado o array numeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] Use o forEach para imprimir a tabuada de 5 no console.](#questão-4-).
 
+5. [Dado o array depessoasAprovadas = ['ana@gmail.com', 'joao@gmail.com', 'silvia@gmail.com', 'marcos@gmail.com'], faça um programa que envie a mensagem simultânea de confirmação de envio de email para cada um dos aprovados com o seguinte texto: 'Email enviado para <endereço de email aqui> com sucesso'. Use o forEach para percorrer todo o array.](#questão-5-)
+
 <br />
 <br />
 <br />
@@ -496,6 +498,26 @@ numeros.forEach(tabuadaDe5)
 numeros.forEach(num => {
   console.log(num * 5)
 })
+
+```
+
+<br>
+
+<h3>Questão 5 </h3>
+
+```javascript
+pessoasAprovadas = [
+  'ana@gmail.com',
+  'joao@gmail.com',
+  'silvia@gmail.com',
+  'marcos@gmail.com'
+]
+
+pessoasAprovadas.forEach(pessoa => {
+  console.log('Email enviado para ' + pessoa + ' com sucesso!')
+})
+
+<br>
 
 ```
 
