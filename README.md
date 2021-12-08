@@ -76,13 +76,13 @@
 
 <br>
     
-1. [Usando o orEach, crie um array com os números de 1 a 6 e exiba na console do navegador apenas os números pares.](#questão-1-).
+1. [Usando o forEach, crie um array com os números de 1 a 6 e exiba na console do navegador apenas os números pares.](#questão-1-).
 
-2. [xxxx](#questão-2-).
+2. [Usando o forEach, e dado o array numeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], efetue a soma de todos os itens e retorne no console.](#questão-2-).
 
-3. [xxxx](#questão-3-).
+3. [Dado o array nomes = ["Alberto", "Alex", "Sandro", "Roberta"], use o forEach para que todas as strings fiquem em maiúsculo.](#questão-3-).
 
-4. [xxxx](#questão-4-).
+4. [Dado o array numeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] Use o forEach para imprimir a tabuada de 5 no console.](#questão-4-).
 
 <br />
 <br />
@@ -425,7 +425,7 @@ var arr = [1, 3, 4, 6, 80, 33, 23, 90]
 <br>
 
 <h1></h1>
-<p align="center">Condicionais e repetição</p>
+<p align="center">Métodos e Objetos</p>
 
 <h3>Questão 1 </h3>
 
@@ -436,6 +436,13 @@ arrayNumeros.forEach(function(elemento){
     console.log(elemento);
 });
 
+// ou com arrow function
+
+arrayNumeros.forEach(numero => {
+    if (numero % 2 === 0) 
+   console.log(numero);
+});
+
 ```
 
 <br>
@@ -443,7 +450,15 @@ arrayNumeros.forEach(function(elemento){
 <h3>Questão 2 </h3>
 
 ```javascript
-// codigo aqui
+numeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+total = 0;
+
+function somar(item) {
+    total += item;
+}
+
+numeros.forEach(somar);
+console.log(total);
 
 ```
 
@@ -452,7 +467,14 @@ arrayNumeros.forEach(function(elemento){
 <h3>Questão 3 </h3> 
 
 ```javascript
-// codigo aqui
+var nomes = ["Alberto", "Alex", "Sandro", "Roberta"];
+
+function converterParaMaisculo(item, indice) {
+    nomes[indice] = nomes[indice].toUpperCase();
+}
+
+nomes.forEach(converterParaMaisculo);
+console.log(nomes);
 
 ```
 
@@ -461,7 +483,19 @@ arrayNumeros.forEach(function(elemento){
 <h3>Questão 4 </h3>
 
 ```javascript
-// codigo aqui
+var numeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+function tabuadaDe5(item) {
+  console.log(item * 5)
+}
+
+numeros.forEach(tabuadaDe5)
+
+// ou com arrow function
+
+numeros.forEach(num => {
+  console.log(num * 5)
+})
 
 ```
 
