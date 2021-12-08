@@ -74,7 +74,7 @@
 <br>
 
 <h1 align="center">Métodos</h1>
-<p align="center">Exercícios Métodos e Objetos</p>
+<h4 align="center">Exercícios Métodos e Objetos</h4>
     
 1. [Usando o orEach, crie um array com os números de 1 a 6 e exiba na console do navegador apenas os números pares.](#questão-1).
 
