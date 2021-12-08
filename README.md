@@ -7,10 +7,12 @@
 
 ### Índice
 
-+ [Exercícios - Condicionais/ Repetição](#exercícios)
-+ [Exercícios - Métodos](#métodos)
++ [Exercícios](#exercícios)
+    + [Condicionais/ Repetição](#exercícios)
+    + [Métodos](#métodos)
 + [Resoluções](#resoluções)
-
+    + [Condicionais/ Repetição](#resoluções)
+    + [Métodos](#resoluções-métodos)
 
 ### Material de Apoio
 
@@ -71,7 +73,7 @@
 
 <br>
 
-> ## Métodos
+<h1 align="center">Resolução Métodos</h1>
 
 1. [Usando o orEach, crie um array com os números de 1 a 6 e exiba na console do navegador apenas os números pares.](#questão-1).
 
