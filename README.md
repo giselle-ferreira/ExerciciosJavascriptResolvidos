@@ -440,7 +440,7 @@ arrayNumeros.forEach(function(elemento){
 
 <br>
 
-### Questão 2.
+<h3>Questão 2 </h3>
 
 ```javascript
 // codigo aqui
@@ -449,7 +449,7 @@ arrayNumeros.forEach(function(elemento){
 
 <br>
 
-### Questão 3 
+<h3>Questão 3 </h3> 
 
 ```javascript
 // codigo aqui
@@ -458,7 +458,7 @@ arrayNumeros.forEach(function(elemento){
 
 <br>
 
-### Questão 4 
+<h3>Questão 4 </h3>
 
 ```javascript
 // codigo aqui
