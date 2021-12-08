@@ -76,7 +76,7 @@
 
 <br>
     
-1. [Usando o orEach, crie um array com os números de 1 a 6 e exiba na console do navegador apenas os números pares.](#questão-1.).
+1. [Usando o orEach, crie um array com os números de 1 a 6 e exiba na console do navegador apenas os números pares.](#questão-1-).
 
 2. [xxxx](#questão-2-).
 
@@ -427,7 +427,7 @@ var arr = [1, 3, 4, 6, 80, 33, 23, 90]
 <h1></h1>
 <p align="center">Condicionais e repetição</p>
 
-### Questão 1.
+<h3>Questão 1 </h3>
 
 ```javascript
 var arrayNumeros = [1,2,3,4,5,6];
