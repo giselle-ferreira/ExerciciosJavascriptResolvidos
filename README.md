@@ -7,12 +7,8 @@
 
 ### Índice
 
-+ [Exercícios](#exercícios)
-    + [Condicionais/ Repetição](#exercícios)
-    + [Métodos](#exercícios-métodos-e-objetos)
++ [Questões](#questões)
 + [Resoluções](#resoluções)
-    + [Condicionais - Repetição](#Condicionais-e-repetição)
-    + [Métodos](#resoluções-métodos-e-objetos)
 
 ### Material de Apoio
 
@@ -30,7 +26,10 @@
 <br>
 <br>
 
-> ## Exercícios
+<h1 align="center">Questões</h1>
+<h3 align="center">Condicionais e Repetição</h3>
+
+<br>
 
 1. [Usando o For, imprima no console a frase 'Estou aprendendo Javascript' 10 vezes](#questão-1). 
 
@@ -73,10 +72,17 @@
 
 <br>
 
-<h1 align="center">Métodos</h1>
-<h4 align="center">Exercícios Métodos e Objetos</h4>
+<h3 align="center">Métodos e Objetos</h3>
+
+<br>
     
-1. [Usando o orEach, crie um array com os números de 1 a 6 e exiba na console do navegador apenas os números pares.](#questão-1).
+1. [Usando o orEach, crie um array com os números de 1 a 6 e exiba na console do navegador apenas os números pares.](#questão-1-).
+
+2. [xxxx](#questão-2-).
+
+3. [xxxx](#questão-3-).
+
+4. [xxxx](#questão-4-).
 
 <br />
 <br />
@@ -413,6 +419,49 @@ var arr = [1, 3, 4, 6, 80, 33, 23, 90]
 
 // console.log(substituirPares([])) //Aqui significa array vazio
 // console.log(substituirPares(null)) //se for null, undefined ou false/true, ele não é um array, assim não tem a propriedade length.
+
+```
+
+<br>
+
+<h1></h1>
+<p align="center">Condicionais e repetição</p>
+
+### Questão 1 
+
+```javascript
+var arrayNumeros = [1,2,3,4,5,6];
+arrayNumeros.forEach(function(elemento){
+    if (elemento % 2 == 0) 
+    console.log(elemento);
+});
+
+```
+
+<br>
+
+### Questão 2 
+
+```javascript
+// codigo aqui
+
+```
+
+<br>
+
+### Questão 3 
+
+```javascript
+// codigo aqui
+
+```
+
+<br>
+
+### Questão 4 
+
+```javascript
+// codigo aqui
 
 ```
 
