@@ -86,6 +86,9 @@
 
 5. [Dado o array depessoasAprovadas = ['ana@gmail.com', 'joao@gmail.com', 'silvia@gmail.com', 'marcos@gmail.com'], faça um programa que envie a mensagem simultânea de confirmação de envio de email para cada um dos aprovados com o seguinte texto: 'Email enviado para <endereço de email aqui> com sucesso'. Use o forEach para percorrer todo o array.](#questão-5-)
 
+6. [Dado o array numeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], filtre apenas os números pares e retorne no console.](#questão-6-)
+
+
 <br />
 <br />
 <br />
@@ -517,7 +520,25 @@ pessoasAprovadas.forEach(pessoa => {
   console.log('Email enviado para ' + pessoa + ' com sucesso!')
 })
 
+```
+
 <br>
+
+<h3>Questão 6 </h3>
+
+```javascript
+var numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+function buscarNumerosPares (value) {
+    if (value % 2 == 0) 
+    return value;
+}
+var numerosPares = numeros.filter(buscarNumerosPares);
+console.log(numerosPares);
+
+// ou com arrow function
+
+var retorno = numeros.filter(pares => (pares %2)== 0);
+console.log(retorno);
 
 ```
 
