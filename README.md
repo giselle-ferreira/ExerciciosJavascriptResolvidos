@@ -88,6 +88,8 @@
 
 6. [Dado o array numeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], filtre apenas os números pares e retorne no console.](#questão-6-)
 
+7. [Dado o array frutas = ['banana', 'laranja', 'maçã' , 'manga' ], exclua a laranja, e inclua os itens 'limão' e 'kiwi' no lugar. Retorne como fica o array no console.](#questão-7-)
+
 
 <br />
 <br />
@@ -539,6 +541,18 @@ console.log(numerosPares);
 
 var retorno = numeros.filter(pares => (pares %2)== 0);
 console.log(retorno);
+
+```
+
+<br>
+
+<h3>Questão 7 </h3>
+
+```javascript
+let frutas = ['banana', 'laranja', 'maçã', 'manga']
+frutas.splice(1, 1, 'limão', 'kiwi')
+
+console.log(frutas)
 
 ```
 
