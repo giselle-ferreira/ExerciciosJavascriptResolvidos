@@ -15,6 +15,7 @@
 + [While, Do While e For](https://www.todoespacoonline.com/w/2014/04/lacos-em-javascript/)
 + [Arrays](https://www.devmedia.com.br/javascript-arrays/4079)
 + [Lógica de Programação com Javascript - Canal serfrontend](https://www.youtube.com/playlist?list=PL1dUY2RYa2RidB3B134ywckDyf-FOwbv7) <img width="24" src="https://bit.ly/3y0lvGK">
++ [Entendendo o DOM](https://tableless.com.br/entendendo-o-dom-document-object-model/)
 + [Playlist de Javascript - Canal Hora de Codar](https://www.youtube.com/playlist?list=PLnDvRpP8BneysKU8KivhnrVaKpILD3gZ6) <img width="24" src="https://bit.ly/3y0lvGK">
 + [Curso Javascript com 14 mini projetos - Canal Dev Aprender](https://www.youtube.com/watch?v=i6Oi-YtXnAU&t=13067s) <img width="24" src="https://bit.ly/3y0lvGK">
 + [Curso Javascript - Canal Programador a Bordo](https://www.youtube.com/playlist?list=PLbA-jMwv0cuWbas947cygrzfzHIc7esmp) <img width="24" src="https://bit.ly/3y0lvGK">
@@ -90,6 +91,27 @@
 
 7. [Dado o array frutas = ['banana', 'laranja', 'maçã' , 'manga' ], exclua a laranja, e inclua os itens 'limão' e 'kiwi' no lugar. Retorne como fica o array no console.](#questão-7-)
 
+8. [Dado o array abaixo, mapeie o mesmo retorne apenas os nomes dos países no console.](#questão-8-)
+
+      ```javasceript
+      var vencedores = [
+        { nome: 'EquipeBR', pais: 'Brasil' },
+        { nome: 'USATeam', pais: 'EUA' },
+        { nome: 'CANTeam', pais: 'Canadá' }
+      ]
+      ```
+
+9. [Dado o array numeros = [6, 5, 4, 3, 2, 1], mapeie apenas os números pares, e retorne no console os valores dos mesmos elevado ao quadrado. ](#questão-9-)
+
+10. [Dado o array abaixo, retorne no console todos os nomes concatenados.](#questão-9-)
+
+      ```javasceript
+     var nomes = [
+        { nome: 'Maria', sobrenome: 'Souza' },
+        { nome: 'Daniela', sobrenome: 'Martins' },
+        { nome: 'Carlos', sobrenome: 'Matos' }
+      ]
+      ```
 
 <br />
 <br />
@@ -553,6 +575,56 @@ let frutas = ['banana', 'laranja', 'maçã', 'manga']
 frutas.splice(1, 1, 'limão', 'kiwi')
 
 console.log(frutas)
+
+```
+
+<br>
+
+<h3>Questão 8 </h3>
+
+```javascript
+var vencedores = [
+  { nome: 'EquipeBR', pais: 'Brasil' },
+  { nome: 'USATeam', pais: 'EUA' },
+  { nome: 'CANTeam', pais: 'Canadá' }
+]
+
+var paises = vencedores.map(item => item.pais)
+console.log(paises)
+
+```
+
+<br>
+
+<h3>Questão 9 </h3>
+
+```javascript
+let numeros = [6, 5, 4, 3, 2, 1]
+
+let paresElevados = numeros.map(numero => {
+  if (numero % 2 === 0) {
+    console.log(numero ** 2)
+  }
+})
+
+```
+
+<br>
+
+<h3>Questão 10 </h3>
+
+```javascript
+var nomes = [
+  { nome: 'Maria', sobrenome: 'Souza' },
+  { nome: 'Daniela', sobrenome: 'Martins' },
+  { nome: 'Carlos', sobrenome: 'Matos' }
+]
+
+var nomeConcatenado = nomes.map(
+  nomeSobrenome => nomeSobrenome.nome + ' ' + nomeSobrenome.sobrenome
+)
+
+console.log(nomeConcatenado)
 
 ```
 
